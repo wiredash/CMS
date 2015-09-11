@@ -62,10 +62,10 @@ return [
 
         'mysql' => [
             'driver'    => 'mysql',
-            'host'      => getenv('DB_HOST', 'localhost'),
-            'database'  => getenv('DB_DATABASE', 'forge'),
-            'username'  => getenv('DB_USERNAME', 'forge'),
-            'password'  => getenv('DB_PASSWORD', ''),
+            'host'      => getenv('DB_HOST'),
+            'database'  => getenv('DB_DATABASE'),
+            'username'  => getenv('DB_USERNAME'),
+            'password'  => getenv('DB_PASSWORD'),
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
